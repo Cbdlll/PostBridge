@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node.js / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.cache/
+.vite/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# Data folders: keep .gitkeep files, ignore generated content
+data/**
+!data/**/.gitkeep
+postbridge_backend/data/**
+!postbridge_backend/data/**/.gitkeep
+
+# JSON files: ignore local configs by default, keep project manifests
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig*.json
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+!picture/
+!picture/homepage_en.png
+!picture/homepage_zh.png
+
+# Logs
+logs/
+log/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Chrome / browser
+chrome_data/
+browser_data/
+playwright/.local-browsers/
+
+# Gemini artifacts
+.gemini/
